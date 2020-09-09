@@ -23,9 +23,11 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = '8opaj$nt=wf(tjupbq*5(j3903vcq7s%p^x*)m6n)2j5q816q5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'young-hollows-36712.herokuapp.com',
+]
 
 
 # Application definition
@@ -130,6 +132,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'catalog.apps.CatalogConfig', 
 ]
+
 
 
 
