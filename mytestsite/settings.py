@@ -26,7 +26,7 @@ SECRET_KEY = '8opaj$nt=wf(tjupbq*5(j3903vcq7s%p^x*)m6n)2j5q816q5'
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    'young-hollows-36712.herokuapp.com',
+    'meow-stock.herokuapp.com',
 ]
 
 
